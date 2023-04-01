@@ -36,3 +36,11 @@ label {
     margin-bottom: .5em;
     background-color: aquamarine;
 }
+span.required {
+    background-color:rgb(245, 183, 163);
+    color: red;
+    padding: 3px;
+    font-size: .9em;
+    font-weight: bold;
+    margin-left: .3em;
+}
