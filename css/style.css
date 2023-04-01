@@ -7,3 +7,9 @@ h1 {
 p {
     font-size: 12px;
 }
+
+div.content {
+    background-color: rgb(204, 197, 197);
+    width: 600px;
+    margin: 0 auto;
+}
