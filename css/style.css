@@ -8,12 +8,16 @@ p {
     font-size: 12px;
 }
 
+main {
+    background-color: #fafafa;
+}
+
 div.content {
-    background-color: rgb(244, 241, 241);
+    background-color: rgba(248, 245, 245, 0.873);
     width: 600px;
     margin: 0 auto;
     border: 1px solid black;
-    padding: 10px;
+    padding: 30px;
 }
 
 input {
@@ -34,7 +38,7 @@ button {
 label {
     display: block;
     margin-bottom: .5em;
-    background-color: aquamarine;
+    background-color: rgb(red, rgb(246, 238, 238), blue);
 }
 span.required {
     background-color:rgb(245, 183, 163);
