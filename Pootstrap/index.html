@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-
         <title>ご利用アンケート</title>
         <link
             rel="stylesheet"
@@ -17,17 +16,36 @@
     <body>
         <div class="container">
             <header>
-                <h1>ご利用アンケート</h1>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>ご利用アンケート</h1>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <a href="#">HOMEへ戻る</a>
+                    </div>
+                </div>
             </header>
         </div>
 
-        <hr />
-        <hr />
+    <hr />
+        <form action="#" method="post" class="row">
+            <div class="container">
+                <div class="col-sm-8">
+                    <p>この度は、アンケートのご回答ありがとうございます。以下のフォームにご記入いただき、送信していただけると幸いです。</p>
+                    <div class="form-group">
+                        <label for="name">お名前</label>
+                        <input type="text" type="name" name="name" class="form-control" placeholder="名前を入力してください
+                            ">
+                    </div>
+                </div>
+            </div>
+        </form>
+    <hr />
+    <body class="container">
+        <footer>
+            <p>&copy; umekinomori</p>
+        </footer>
+    </body>
 
-        <div class="container">
-            <footer>
-                <p>&copy; ともすた</p>
-            </footer>
-        </div>
     </body>
 </html>
